@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kirusoft Dev.</title>
+    
     <script src="https://use.fontawesome.com/7132176dc0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js"></script>
     <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/style/fullpage.css">
     <link rel="stylesheet" href="src/style/ksp1.css">
     <link rel="stylesheet" href="src/style/srhbar.css">
 </head>
 
+<script src="src/js/fpinit.js"></script>
+
 <body>
+    
+
     <div class="ks_logo">
         <img class="icimg" src="https://image.ibb.co/kwPGb5/kirusoft_withcolor.png" alt="">
         <div class="opts">
@@ -22,13 +32,29 @@
         </div>
     </div>
 
-    <div class="callfa">
-        <input class="minpt" type="text" placeholder="your email...">
-        <div class="cal_btn">
-            <input class="mbtn" type="button">
-            <i class="mico fa fa-paper-plane plane fa-lg hidden"></i>
-            <div class="mtxt">Submit</div>
+    <div id="fullpage">
+        <div class="section">
+            <div class="callfa">
+                <input class="minpt" type="text" placeholder="your email...">
+                <div class="cal_btn">
+                    <input class="mbtn" type="button">
+                    <i class="mico fa fa-paper-plane plane fa-lg hidden"></i>
+                    <div class="mtxt">Submit</div>
+                </div>
+            </div>
         </div>
+
+
+        <div class="section">
+            <h1>Clickable</h1>
+            <p>You can even click on the navigation and jump directly to another section.</p>
+        </div>
+
+        <div class="section">
+            <h1>Clickable</h1>
+            <p>You can even click on the navigation and jump directly to another section.</p>
+        </div>
+
     </div>
 
 </body>
