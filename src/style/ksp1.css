@@ -1,0 +1,29 @@
+body {
+    margin: 0em;
+    background-color: white;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+  }
+  
+  .ks_logo {
+    padding: 1.9em 2em 2em 2.7em;
+  }
+  
+  .icimg {
+    width: 8.5em;
+  }
+  
+  .opts {
+    float: right;
+    display: inline-flex;
+  }
+  
+  .opts_itms {
+    padding: 0em 1em;
+    color: #95989A;
+  }
+  
+  .opts_itms:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,90 @@
+  .callfa {
+    float: left;
+    margin-top: 13%;
+    margin-left: 16%;
+  }
+  
+  .cal_btn {
+    position: absolute;
+    display: inline;
+    cursor: pointer;
+  }
+  
+  .mico {
+    color: white;
+    position: absolute;
+    top: 0.7em;
+    left: 4.2em;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .mtxt {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    top: 1.2em;
+    left: 1.9em;
+    position: absolute;
+    color: white;
+  }
+  
+  .minpt {
+    height: 1.8em;
+    width: 15em;
+    float: left;
+  }
+  
+  .minpt[type='text'] {
+    padding: 0em 0em 0em .8em;
+    font-size: 1.9em;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    border-radius: .2em 0em 0em .2em;
+    color: #95989A;
+    border: 0.045em solid #2296f3;
+    outline: inherit !important;
+  }
+  
+  ::-webkit-input-placeholder {
+    opacity: .3 !important;
+  }
+  
+  :-moz-placeholder {
+    /* Firefox 18- */
+    opacity: .3 !important;
+  }
+  
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: .3 !important;
+  }
+  
+  :-ms-input-placeholder {
+    opacity: .3 !important;
+  }
+  
+  .mbtn {
+    cursor: pointer;
+    height: 3.4em;
+    width: 8.1em;
+    border-radius: 0em .5em .5em 0em;
+    background: #2196F3 !important;
+    color: inherit;
+    border: none;
+    padding: 0! important;
+    font: inherit;
+    outline: inherit !important;
+  }
+  
+  @keyframes floating {
+    from {
+      transform: translate(5px, -5px);
+    }
+    65% {
+      transform: translate(0, 10px);
+    }
+    to {
+      transform: translate(5px, -5px);
+    }
+  }
+  
