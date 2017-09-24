@@ -1,38 +1,115 @@
 body {
-    margin: 0em;
-    background-color: white;
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
-  }
-  
-  .ks_logo {
-    width: 100%;
-    padding: 1.9em 0em 2em 0em;
-    z-index: 99999;
-    background-color: rgba(255, 255, 255, 0.77);
-    position: absolute;
-  }
-  
-  .icimg {
-    width: 8.5em;
-    margin-left: 2em;
-  }
-  
-  .opts {
-    float: right;
-    display: inline-flex;
-  }
-  
-  .opts_itms {
-    padding: 0em 1em;
-    color: #95989A;
-  }
-  
-  .opts_itms:hover {
-    color: cornflowerblue;
-    cursor: pointer;
-  }
+  margin: 0em;
+  background-color: white;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+.section{
+  margin: 0 !important;
+}
+.topbar {
+  height: 3.5em;
+  background: white;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  width: 8em;
+  height: 1.45em;
+  margin: 1em 1em;
+}
+.logo-cont {
+  height: 100%;
+  float: left;
+}
+.mnuitms {
+  display : flex;
+  align-items : center;
+  float: right;
+  height: 100%;
+}
+.mcontain{
+  margin-right: 1.2em;
+}
+.mnuitm {
+  color: #7b8c91;
+  float: left;
+  cursor: pointer;
+  padding: 0em 1em;
+}
+.mnuitm:hover {
+  color: #00c9ff;
+}
+.cfa{
+  background: #00c9ff;
+  color: white;
+  padding:.7em;
+  border-radius: .3em .3em .3em .3em;
+}
+.hamm{
+  padding: 0.3em 1em;
+  background: transparent;
+  color: #728389;
+  font-size: 2em;
+}
+.hamm:active{
+  opacity: .8;
+}
+.bar_options{
+  margin: 3.5em 0em 0em 0em;
+  padding: 0em;
+  display: block;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.97);
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+.baritm{
+padding: 1.3em;
+}
+.baritm:hover {
+background: #00c9ff;
+color: white;
 
-  .opts{
-    margin-right: 1em;
+-webkit-animation: fadein .06s ease-in; /* Safari 4+ */
+-moz-animation:    fadein .06s ease-in; /* Fx 5+ */
+-o-animation:      fadein .06s ease-in; /* Opera 12+ */
+animation:         fadein .06s ease-in; /* IE 10+, Fx 29+ */
+}
+.baritm:active {
+opacity: .8;
+color: white;
+}
+.hide{
+display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .mcontain{
+    display: none;
+}
+}
+
+@media screen and (min-width: 431px) and (max-width: 630px) {
+  .mcontain{
+    display: none;
+}
+}
+@media screen and (min-width: 631px) and (max-width: 830px) {
+  .mcontain{
+    display: none;
+}
+}
+@media screen and (min-width: 831px) and (max-width: 1030px) {
+  .hamm{
+    display: none;
   }
-  
+}
+
+@media screen and (min-width: 1030px) {
+  .hamm{
+    display: none;
+  }
+}

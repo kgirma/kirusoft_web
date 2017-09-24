@@ -1,15 +1,15 @@
   .callfa {
-    float: left;
     margin-top: 13%;
-    margin-left: 16%;
+    max-width: 64em;
+    width: 100%;
+    display: inline-block;
+    padding: 0em 1em;
   }
-  
   .cal_btn {
     position: absolute;
     display: inline;
     cursor: pointer;
   }
-  
   .mico {
     color: white;
     position: absolute;
@@ -20,7 +20,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
-  
   .mtxt {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     top: 1.2em;
@@ -28,13 +27,11 @@
     position: absolute;
     color: white;
   }
-  
   .minpt {
     height: 1.8em;
-    width: 15em;
+    /*width: 15em;*/
     float: left;
   }
-  
   .minpt[type='text'] {
     padding: 0em 0em 0em .8em;
     font-size: 1.9em;
@@ -42,27 +39,23 @@
     border-radius: .2em 0em 0em .2em;
     color: #95989A;
     border: 0.045em solid #2296f3;
+    width: 60.5%;
     outline: inherit !important;
   }
-  
   ::-webkit-input-placeholder {
     opacity: .3 !important;
   }
-  
   :-moz-placeholder {
     /* Firefox 18- */
     opacity: .3 !important;
   }
-  
   ::-moz-placeholder {
     /* Firefox 19+ */
     opacity: .3 !important;
   }
-  
   :-ms-input-placeholder {
     opacity: .3 !important;
   }
-  
   .mbtn {
     cursor: pointer;
     height: 3.4em;
@@ -75,16 +68,12 @@
     font: inherit;
     outline: inherit !important;
   }
-  
-  @keyframes floating {
-    from {
-      transform: translate(5px, -5px);
-    }
-    65% {
-      transform: translate(0, 10px);
-    }
-    to {
-      transform: translate(5px, -5px);
-    }
+  .centercontents{
+    display: table-cell;
+    Vertical-align: middle;
   }
+  /*  
+      display: table-cell;
+      Vertical-align: middle; check the top and left padding
+  */
   

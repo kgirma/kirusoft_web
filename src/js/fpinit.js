@@ -2,8 +2,8 @@ $(function() {
     // Initialize fullPage
     $('#fullpage').fullpage({
         navigation: true,
-        navigationTooltips: ['See what we', 'Second section', 'Third section'],
-        sectionsColor: ['#f1c40f', '#e67e22', '#c0392b'],
+        navigationTooltips: ['Welcome', 'Second section', 'Third section'],
+        sectionsColor: ['#fffff', '#e67e22', '#c0392b'],
         onLeave: function(index, nextIndex, direction) {
             // Remove the inactive class from all arrows
             $('#fp-nav > span').removeClass('inactive');
