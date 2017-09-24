@@ -21,7 +21,6 @@
     animation-timing-function: ease-in-out;
   }
   .mtxt {
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
     top: 1.2em;
     left: 1.9em;
     position: absolute;
@@ -35,7 +34,6 @@
   .minpt[type='text'] {
     padding: 0em 0em 0em .8em;
     font-size: 1.9em;
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
     border-radius: .2em 0em 0em .2em;
     color: #95989A;
     border: 0.045em solid #2296f3;
