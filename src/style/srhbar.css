@@ -1,34 +1,30 @@
   .callfa {
-    margin-top: 13%;
+    display: block;
     max-width: 64em;
-    width: 100%;
-    display: inline-block;
     padding: 0em 1em;
   }
   .cal_btn {
-    position: absolute;
+    /*position: absolute;*/
     display: inline;
     cursor: pointer;
   }
   .mico {
-    color: white;
-    position: absolute;
-    top: 0.7em;
-    left: 4.2em;
+    color: #ffffff;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
   .mtxt {
-    top: 1.2em;
-    left: 1.9em;
-    position: absolute;
-    color: white;
+    display: inline;
+    color: #ffffff;
+    margin-right: 0.1em;
+  }
+  .insub{
+    height: 3.5em;
   }
   .minpt {
-    height: 1.8em;
-    /*width: 15em;*/
+    height: 100%;
     float: left;
   }
   .minpt[type='text'] {
@@ -55,9 +51,11 @@
     opacity: .3 !important;
   }
   .mbtn {
+    float: left;
     cursor: pointer;
-    height: 3.4em;
-    width: 8.1em;
+    height: 100%;
+    max-width: 8.1em;
+    min-width: 6.2em;
     border-radius: 0em .5em .5em 0em;
     background: #2196F3 !important;
     color: inherit;

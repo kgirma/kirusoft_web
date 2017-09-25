@@ -3,7 +3,7 @@ $(function() {
     $('#fullpage').fullpage({
         navigation: true,
         navigationTooltips: ['Welcome', 'Second section', 'Third section'],
-        sectionsColor: ['#fffff', '#e67e22', '#c0392b'],
+        //sectionsColor: ['#fffff', '#e67e22', '#c0392b'],
         onLeave: function(index, nextIndex, direction) {
             // Remove the inactive class from all arrows
             $('#fp-nav > span').removeClass('inactive');

@@ -3,16 +3,25 @@ body {
   background-color: white;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
-
+.cntrtop{
+  max-width: 114em;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+}
 .section{
   margin: 0 !important;
+}
+.conts {
+  padding: 0em 1em;
 }
 .topbar {
   height: 3.5em;
   background: white;
   z-index: 9999;
-  position: fixed;
+  position: relative;
   width: 100%;
+  padding: 1em 0em 0em 0em;
 }
 .logo {
   width: 8em;
