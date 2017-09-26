@@ -3,25 +3,35 @@ body {
   background-color: white;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+#imbgx {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0em !important;
+  margin: -2.7em 0em 0em 0em !important;
+  background-image: url("../img/jleb.jpg");
+  background-size: cover;
+  opacity: .8;
+}
 .cntrtop{
   max-width: 114em;
   margin: 0 auto;
   height: 100%;
   display: block;
+  padding: 0.8em 1em;
 }
 .section{
   margin: 0 !important;
 }
 .conts {
-  padding: 0em 1em;
+  padding: 0em 0em;
 }
 .topbar {
   height: 3.5em;
-  background: white;
+  background: rgba(255, 255, 255, 0);
   z-index: 9999;
   position: relative;
   width: 100%;
-  padding: 1em 0em 0em 0em;
 }
 .logo {
   width: 8em;

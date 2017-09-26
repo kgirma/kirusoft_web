@@ -2,7 +2,7 @@ $(function() {
     // Initialize fullPage
     $('#fullpage').fullpage({
         navigation: true,
-        navigationTooltips: ['Welcome', 'Second section', 'Third section'],
+        navigationTooltips: ['Welcome', 'Services', 'Career'],
         //sectionsColor: ['#fffff', '#e67e22', '#c0392b'],
         onLeave: function(index, nextIndex, direction) {
             // Remove the inactive class from all arrows
@@ -23,3 +23,4 @@ $(function() {
     $('#fp-nav').css({ 'margin-top': '-' + ($('#fp-nav').height() / 2) + 'px' });
 
 });
+

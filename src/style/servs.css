@@ -1,0 +1,44 @@
+.xcnt {
+    display: flex;
+    justify-content: center;
+  }
+  .maxsrv{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* width: 3.5em; */
+    max-width: 97em;
+    max-height: 65em;
+ }
+  .srvcont {
+    float: left;
+    padding: 1.9em 1.1em;
+    width: 16.6em;
+    display: flex;
+  }
+  .srvcont1 {
+    display: inline-block;
+    width: 14em;
+    height: 6.3em;
+  }
+  .srvimg {
+    height: 1.6em;
+    width: 1.6em;
+    margin-right: 1em;
+    vertical-align: top;
+  }
+  .srvh {
+    color: #43758e;
+    margin: 0em;
+    font-size: 1.1em;
+  }
+  .srvp {
+    color: #7b8c91;
+    margin: 0em;
+    padding-top: 0.4em;
+    font-size: 0.9em;
+  }
+  
