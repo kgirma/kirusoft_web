@@ -1,3 +1,9 @@
+.bv-form .help-block{margin-bottom:0}.bv-form .tooltip-inner{text-align:left}.nav-tabs li.bv-tab-success>a{color:#3c763d}.nav-tabs li.bv-tab-error>a{color:#a94442}
+#update-form {
+    margin: 10% 10%;
+    max-width: 28em;
+}
+
 .xcnt {
     display: flex;
     justify-content: center;
@@ -10,7 +16,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    /* width: 3.5em; */
     max-width: 97em;
     max-height: 65em;
  }
@@ -42,4 +47,4 @@
     padding-top: 0.4em;
     font-size: 0.9em;
   }
-  
+
