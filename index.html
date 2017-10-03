@@ -23,12 +23,12 @@
     <link rel="stylesheet" href="src/style/srhbar.css">
     <link rel="stylesheet" href="src/style/servs.css">
     <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css">
- </head>
+</head>
 
 <script src="src/js/fpinit.js"></script>
 
 
-<body>
+<body onload="sc()">
     <div class="conts">
         <div class="topbar">
             <dev class="cntrtop">
@@ -55,16 +55,18 @@
 
 
         <div id="fullpage">
-            <div id="imbgx"></div>
+            <!-- <div id="imbgx"></div> remove hide later -->
             <div class="section">
-                <div class="callfa">
-                    <h1 style="color: #73848a;">WE MAKE YOUR IDEAS HAPPEN!</h1>
-                    <p style="color: #adb8bc;">The highest quality of Web and Mobile app development services. Get Started Now!</p>
-                    <div class="insub"><input class="minpt" type="text" placeholder="your email...">
-                        <button class="mbtn" type="button">
+                <div class="main_contains">
+                    <div class="callfa">
+                        <h1 style="color: #73848a;">WE MAKE YOUR IDEAS HAPPEN!</h1>
+                        <p style="color: #adb8bc;">The highest quality of Web and Mobile app development services. Get Started Now!</p>
+                        <div class="insub"><input class="minpt" id="1eml" type="text" placeholder="your email...">
+                            <button class="mbtn" type="button">
                                 <div class="mtxt">Submit</div>
                                 <i class="mico fa fa-paper-plane plane fa-lg hidden"></i>
                         </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,7 +166,7 @@
                     <div class="srvcont">
                         <img src="https://image.ibb.co/nsGEg5/services.png" alt="" class="srvimg">
                         <div class="srvcont1">
-                            <h1 class="srvh">3D Prototyping &amp; Design
+                            <h1 class="srvh">3D Prototyping &amp; Concept Design
                             </h1>
                             <p class="srvp">3D modeling and visualization for any applications.
                             </p>
@@ -175,29 +177,72 @@
             </div>
 
             <div class="section">
-                <form id="update-form" class="form-horizontal">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="first" placeholder="First Name" value="" />
+
+                <div class="sub_card" id="p1m">
+                    <div class="sub_svs">
+                        <fieldset class="tasks-list">
+                            <label class="tasks-list-item">
+                                      <input type="checkbox" name="task_1" value="1" class="tasks-list-cb" checked>
+                                      <span class="tasks-list-mark"></span>
+                                      <span class="tasks-list-desc">Mobile App Development</span>
+                                    </label>
+                            <label class="tasks-list-item">
+                                      <input type="checkbox" name="task_2" value="1" class="tasks-list-cb" checked>
+                                      <span class="tasks-list-mark"></span>
+                                      <span class="tasks-list-desc">Website Development</span>
+                                    </label>
+                            <label class="tasks-list-item">
+                                      <input type="checkbox" name="task_3" value="1" class="tasks-list-cb">
+                                      <span class="tasks-list-mark"></span>
+                                      <span class="tasks-list-desc">Product Concept Design <a href="" style="
+                                        font-size: 0.6em;
+                                        vertical-align: top;
+                                        color: #ACACAC;
+                                        /* opacity: .5; */
+                                        font-style: italic;
+                                    ">What's this?</a></span>
+                                    </label>
+                            <label class="tasks-list-item">
+                                      <input type="checkbox" name="task_3" value="1" class="tasks-list-cb">
+                                      <span class="tasks-list-mark"></span>
+                                      <span class="tasks-list-desc">Help me build my brand</span>
+                                    </label>
+                            <label class="tasks-list-item">
+                                      <input type="checkbox" name="task_3" value="1" class="tasks-list-cb">
+                                      <span class="tasks-list-mark"></span>
+                                      <span class="tasks-list-desc">I'm not sure yet.</span>
+                                    </label>
+                        </fieldset>
                     </div>
 
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="last" placeholder="Last Name" value="" />
-                    </div>
+                    <div class="sub_txts">
+                        <form id="update-form" class="form-horizontal">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="first" placeholder="First Name" value="" />
+                            </div>
 
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="email" placeholder="Email" value="" />
-                    </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="last" placeholder="Last Name" value="" />
+                            </div>
 
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="phone" placeholder="Phone" value="" />
-                    </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="email" placeholder="Email" value="" />
+                            </div>
 
-                    <div class="form-group">
-                        <textarea type="text" class="form-control" name="discr" placeholder="Project Discription" value="" style="min-height: 12em;"></textarea>
-                    </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phone" placeholder="Phone" value="" />
+                            </div>
 
-                    <input type="submit" class="btn btn-primary" value="Update" />
-                </form>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" name="discr" placeholder="Project Discription" value="" style="min-height: 12em;"></textarea>
+                            </div>
+
+                            <input type="submit" class="btn btnprm" value="Send me an estimate" />
+                        </form>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
@@ -233,7 +278,7 @@
             email: {
                 validators: {
                     notEmpty: {
-                        message: 'The email is required'
+                        message: 'e-mail is required'
                     },
                     emailAddress: {
                         message: 'The input is not a valid email address'
@@ -263,6 +308,10 @@
             // initialize the plugin
             $('#update-form').bootstrapValidator(data.bv.getOptions());
         });
+
+
+    //focus on the email
+    window.onload = function () { document.getElementById("1eml").focus(); }
 
 </script>
 

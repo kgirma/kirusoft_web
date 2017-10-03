@@ -3,6 +3,12 @@ body {
   background-color: white;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+.main_contains {
+  display: table;
+  height: 45%;
+}
+
 #imbgx {
   position: absolute;
   height: 100%;
@@ -12,12 +18,12 @@ body {
   background-size: cover;
   opacity: .8;
 }
-.cntrtop{
+.cntrtop {
+  display: table;
   max-width: 114em;
-  margin: 0 auto;
   height: 100%;
-  display: block;
-  padding: 0.8em 1em;
+  width: 100%;
+  margin: 0.8em auto;
 }
 .section{
   margin: 0 !important;
@@ -37,8 +43,8 @@ body {
   height: 1.45em;
 }
 .logo-cont {
-  height: 100%;
-  float: left;
+  display: table-cell;
+  vertical-align: middle;
 }
 .mnuitms {
   display : flex;
