@@ -18,6 +18,7 @@ body {
   background-size: cover;
   opacity: .8;
 }
+
 .cntrtop {
   display: table;
   max-width: 114em;
@@ -25,62 +26,76 @@ body {
   width: 100%;
   margin: 0.8em auto;
 }
-.section{
+
+.section {
   margin: 0 !important;
 }
+
 .conts {
   padding: 0em 0em;
 }
+
 .topbar {
   height: 3.5em;
-  background: rgba(255, 255, 255, 0);
+  background: rgb(255, 255, 255);
+  box-shadow: 0em 0.2em 20px white;
   z-index: 9999;
   position: absolute;
   width: 100%;
 }
+
 .logo {
   margin-left: 2em;
   width: 8em;
   height: 1.45em;
 }
+
 .logo-cont {
   display: table-cell;
   vertical-align: middle;
 }
+
 .mnuitms {
-  display : flex;
-  align-items : center;
+  display: flex;
+  align-items: center;
   float: right;
   height: 100%;
 }
-.mcontain{
+
+.mcontain {
   margin-right: 1.2em;
 }
+
 .mnuitm {
   color: #7b8c91;
   float: left;
   cursor: pointer;
   padding: 0em 1em;
 }
+
 .mnuitm:hover {
   color: #00c9ff;
 }
-.cfa{
-  background: #00c9ff;
+
+.cfa {
+  background: #838383;
   color: white;
-  padding:.7em;
+  padding: 0.3em .7em;
   border-radius: .3em .3em .3em .3em;
 }
-.hamm{
+
+.hamm {
   padding: 0.3em 1em;
   background: transparent;
   color: #728389;
   font-size: 2em;
 }
-.hamm:active{
+
+.hamm:active {
   opacity: .8;
 }
-.bar_options{
+
+.bar_options {
   margin: 3.5em 0em 0em 0em;
   padding: 0em;
   display: block;
@@ -91,50 +106,143 @@ body {
   width: 100%;
   z-index: 99999;
 }
-.baritm{
-padding: 1.3em;
+
+.baritm {
+  padding: 1.3em;
 }
+
 .baritm:hover {
-background: #00c9ff;
-color: white;
-
--webkit-animation: fadein .06s ease-in; /* Safari 4+ */
--moz-animation:    fadein .06s ease-in; /* Fx 5+ */
--o-animation:      fadein .06s ease-in; /* Opera 12+ */
-animation:         fadein .06s ease-in; /* IE 10+, Fx 29+ */
+  background: #00c9ff;
+  color: white;
+  -webkit-animation: fadein .06s ease-in;
+  /* Safari 4+ */
+  -moz-animation: fadein .06s ease-in;
+  /* Fx 5+ */
+  -o-animation: fadein .06s ease-in;
+  /* Opera 12+ */
+  animation: fadein .06s ease-in;
+  /* IE 10+, Fx 29+ */
 }
+
 .baritm:active {
-opacity: .8;
-color: white;
-}
-.hide{
-display: none;
+  opacity: .8;
+  color: white;
 }
 
-@media screen and (max-width: 430px) {
-  .mcontain{
-    display: none;
+.hide {
+  display: none;
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .mcontain {
+    display: none;
+  }
+  .callfa {
+    padding: 6em 2em !important;
+  }
+  .insub {
+    height: 2.5em !important;
+  }
+  .minpt[type='text'] {
+    font-size: 1em !important;
+  }
+  .srvimg {
+    display: none !important;
+  }
+  #fp-nav.right {
+    right: 1px;
+  }
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+    display: none;
+  }
+  .srvcont {
+    margin: 0.3em 0em;
+    padding: 0.9em !important;
+    width: 100% !important;
+    display: flex;
+    box-shadow: 0em 0em 18px 0px rgba(131, 131, 131, 0.2);
+    border: .01em solid rgba(161, 161, 161, 0.12);
+    border-radius: 0.4em;
+  }
+  .srvcont1 {
+    display: inline-block;
+    height: auto !important;
+  }
+  .srvh {
+    margin: 0em;
+    font-size: 0.9em !important;
+  }
+  .srvp {
+    margin: 0em;
+    padding-top: 0.4em;
+    font-size: 0.8em !important;
+  }
+  .maxsrv {
+    margin-top: 2em !important;
+  }
+  #mxx {
+    display: none;
+  }
+  .sub_card {
+    height: 25em;
+    margin: 10% 10%;
+    min-width: unset !important;
+    max-width: unset !important;
+    float: none !important;
+  }
+  .sub_txts {
+    height: 100%;
+    margin: 30% 0%;
+    width: unset !important;
+    float: none !important;
+  }
 }
 
 @media screen and (min-width: 431px) and (max-width: 630px) {
-  .mcontain{
+  .mcontain {
     display: none;
+  }
+  .callfa {
+    padding: 6em 2em !important;
+    }
+  .insub {
+    height: 2.5em !important;
+  }
+  .minpt[type='text'] {
+    font-size: 1em !important;
+  }
+  .srvimg {
+    display: none !important;
+  }
 }
-}
+
 @media screen and (min-width: 631px) and (max-width: 830px) {
-  .mcontain{
+  .mcontain {
     display: none;
+  }
+  .sub_card{
+    margin: 10% 5% !important;
+  }
+  .callfa {
+    padding: 6em 2em !important;
+    }
+  .insub {
+    height: 2.5em !important;
+  }
+  .minpt[type='text'] {
+    font-size: 1em !important;
+  }
 }
-}
+
 @media screen and (min-width: 831px) and (max-width: 1030px) {
-  .hamm{
+  .hamm {
     display: none;
   }
 }
 
 @media screen and (min-width: 1030px) {
-  .hamm{
+  .hamm {
     display: none;
   }
 }
