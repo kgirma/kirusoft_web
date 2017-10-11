@@ -1,0 +1,39 @@
+{
+  "name": "kirusoft",
+  "version": "2.0.1",
+  "description": "The highest quality of Web and Mobile app development services. Get Started Now!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillygoose4u/kirusoft_web.git"
+  },
+  "keywords": [
+    "Kirusoft",
+    "Dev",
+    "Development",
+    "Kirubel",
+    "Girma",
+    "App",
+    "Development",
+    "Atlanta",
+    "Local",
+    "International",
+    "Android",
+    "Apple",
+    "Mobile",
+    "Web",
+    "Development",
+    "Shop",
+    "Agency",
+    "Fast"
+  ],
+  "author": "Kirubel Girma",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/sillygoose4u/kirusoft_web/issues"
+  },
+  "homepage": "https://github.com/sillygoose4u/kirusoft_web#readme"
+}
