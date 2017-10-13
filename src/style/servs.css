@@ -24,7 +24,6 @@
 }
 
 .maxsrv {
-  position: absolute;
   padding: 2.9em 1em;
   margin: 3% 4%;
   top: 0;
@@ -59,6 +58,8 @@
   color: #43758e;
   margin: 0em;
   font-size: 1.1em;
+  border-bottom: solid #517b94;
+  padding-bottom: 0.6em;
 }
 
 .srvp {

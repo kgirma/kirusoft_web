@@ -2,6 +2,8 @@ $(function() {
     // Initialize fullPage
     $('#fullpage').fullpage({
         navigation: true,
+        controlArrows: false,
+        continuousHorizontal: true,
         navigationTooltips: ['Welcome', 'Services', 'Career'],
         //sectionsColor: ['#fffff', '#e67e22', '#c0392b'],
         onLeave: function(index, nextIndex, direction) {
